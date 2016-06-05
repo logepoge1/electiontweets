@@ -1,0 +1,5 @@
+[database config]
+servername = 'localhost'
+username = ''
+password = ''
+dbname = ''
