@@ -15,7 +15,7 @@ ExpiresDefault "access 1 month"
 
 Options -Indexes
 
-<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|bak|py)$">
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|bak|py|sql)$">
 Order Allow,Deny
 Deny from all
 </FilesMatch>

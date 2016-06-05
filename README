@@ -1,0 +1,21 @@
+Welcome to my code for electiontweets.xyz
+
+To implement this on your own webserver, please do the following.
+
+Clone to your web directory of choice
+
+Run the attached sql script in scripts/setup.sql, replacing the values with your preferences
+
+Rename config.ini.example in base directory to config.ini
+
+Set the variables accordingly
+
+Rename scripts/election_config.py.example to scripts/election_config.py
+
+Set the variables accordingly
+
+CONTACT: logepoge1@gmail.com
+
+Feel free to message me for any help with this or clarification.
+
+Feel free to fork if you can improve
