@@ -146,6 +146,10 @@ if($sizeResult == 18)
 	echo '<li><a class="navButton" href="#" onclick="nextPage()">Next</a></li>';
 echo '</ul>';
 echo '</div>';
+echo '<form action="files.php">';
+echo '<button type="submit" value="Download SQL Dump File">Download SQL Dump File*</button>';
+echo '</form>';
+echo '<br /><p>*File is updated daily at 12:00AM CST</p>';
 }
 ?>
 
