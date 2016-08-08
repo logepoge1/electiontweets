@@ -1,6 +1,6 @@
 <?php
 
-$file = 'files/backup.zip';
+$file = 'files/candidates.zip';
 
 if (file_exists($file)) {
     header('Content-Description: File Transfer');
