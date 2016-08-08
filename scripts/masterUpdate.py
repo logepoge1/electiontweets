@@ -4,14 +4,10 @@ from mysql_connector import query
 import time
 import sys
 import logging
+from election_config import *
 global str
 
 logging.basicConfig(filename="/scripts/electiontweets/electiontweets.log", level=logging.INFO, format='%(asctime)s %(message)s')
-
-CONSUMER_KEY = 'RfuzUJm7Ape2zYR2qLvEgszvn'
-CONSUMER_SECRET = 'GVk8tnstkmnD2MitTWQRU1aKmS6giyRRaXXwbuF7MHEkKv57Vi'
-ACCESS_KEY = '3284911094-1ZeUOSJAOH2Vp074MnF816U83H1WYlorgTyQlLM'
-ACCESS_SECRET = 'Te3ZmElLxxdKZ3ZbE2ehlhL0nI1cqeZYwM42BqJZPyzaf'
 
 api = Twython(CONSUMER_KEY,CONSUMER_SECRET,ACCESS_KEY,ACCESS_SECRET)
 
