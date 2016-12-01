@@ -1,7 +1,5 @@
 import MySQLdb
-from election_config import *
-
-db = MySQLdb.connect(host=host, port=port, user=user, passwd=password, db=database)
+db = MySQLdb.connect(host="localhost", port=3306, user="twitter_handle", passwd="twitter_handle737", db="twitter_handle")
 cur = db.cursor()
 
 def insert(query, id, text, created_at):

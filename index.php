@@ -4,6 +4,11 @@
 <title>2016 Election Candidate Tweet Tracker</title>
 <meta name="description" content"The purpose of this page to to allow users to see tweets posted by various candidates in one location">
 <meta name="keywords" content="Donald Trump, Trump, The Donald, Hillary Clinton, Clinton, Bernie Sanders, Sanders, Feel The Bern, Gary Johnson, Johnson">
+<meta property="og:url"                content="http://electiontweets.xyz" />
+<meta property="og:title"              content="2016 Presidential Candidate Tweet Trcker" />
+<meta property="og:type"	       content="website" />
+<meta property="og:description"        content="A useful interface to compare the tweets of the various presidential candidates in the United States 2016 election?" />
+<meta property="og:image"              content="http://electiontweets.xyz/2016_Presidential_Election_ballot.jpg" />
 </head>
 
 <span itemscope itemtype="http://schema.org/WebSite"><h1 itemprop="name" style="text-align: center;">2016 Election Tweets</h1>
